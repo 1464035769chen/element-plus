@@ -9,6 +9,7 @@
     :collapse="isCollapse"
     @open="handleOpen"
     @close="handleClose"
+    :collapse-transition="false"
   >
     <el-sub-menu index="1">
       <template #title>
